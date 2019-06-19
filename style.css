@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
+  max-width: 375px;
 }
 
 h1 {
@@ -27,6 +28,12 @@ p {
   color: white
 }
 
+.top-bar {
+  position: fixed;
+  width: 375px;
+  top: 0;
+}
+
 .top-info {
   display: block;
   padding-top: 20px;
@@ -41,6 +48,7 @@ p {
 
 .iOS-status {
   display: block;
+  margin-top: 2px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -52,6 +60,7 @@ p {
 
 .live-map {
   display: flex;
+  margin-top: 84px;
 }
 
 .list li {
@@ -113,11 +122,17 @@ p {
   text-align: center;
 }
 
+.oos-route-list li:last-child{
+  margin-bottom: 60px;
+}
+
 /* TabNavigation */
-.tabNav {
+.footer {
+  position: fixed;
+  bottom: 0;
   display: flex;
   height: 60px;
-  width: 100%;
+  width: 375px;
   background-color: #353A57;
 }
 
