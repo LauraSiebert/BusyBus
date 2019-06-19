@@ -8,16 +8,18 @@
 h1 {
   font-size: 1.5em;
   display: inline;
-  /* padding-left: 20px; */
 }
 
 h2 {
   font-size: 1.2em;
-  padding: 5px 0px 5px 5px;
+  padding: 5px 0px 8px 5px;
+  margin-top: 0;
 }
 
 p {
   font-size: 1em;
+  font-style: italic;
+  color: #E00061;
 }
 
 .status-bar {
@@ -49,20 +51,19 @@ p {
 }
 
 .live-map {
-  display: block;
+  display: flex;
 }
 
 .list li {
   display: flex;
-  /* justify-content: space-between; */
+  color: #353A57;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .direction-titles {
   display: flex;
-  /* justify-content: space-between; */
   background-color: #C4C2C2;
-  padding-top: 5px;
-  padding-bottom: 5px;
 }
 
 .direction-heading {
@@ -70,11 +71,11 @@ p {
 }
 
 .line-title{
-  display: block;
+  display: flex;
+  justify-content: center;
   width: 101px;
   padding-left: 20px;
   padding-right: 20px;
-  text-align: center;
 }
 
 .destination-title {
@@ -101,6 +102,7 @@ p {
 
 .inline-heading {
   font-weight: bold;
+  color:  #353A57;
 }
 
 .line {
