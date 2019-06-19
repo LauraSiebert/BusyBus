@@ -18,8 +18,8 @@ h2 {
 
 p {
   font-size: 1em;
-  font-style: italic;
   color: #E00061;
+  padding-top: 2px;
 }
 
 .status-bar {
