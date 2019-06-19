@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Busy Bus</title>
+    <meta name="author" content="Laura Siebert">
+    <meta name="description" content="This app was designed and coded by Laura Siebert">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+<!-- Status Bar -->
+    <div class="status-bar">
+      <img src="images/StatusBar.svg" alt="iOS Status Bar" class="iOS-status">
+      <div class="top-info">
+        <img src="images/backArrow.png" alt="Back Arrow" class="back-arrow">
+        <h1>Washington & State</h1>
+      </div>
+    </div>
+    <div class="live-map">
+      <img src="images/Map.png" alt="Live Map">
+    </div>
+
+<!-- Eastbound Section -->
+    <div class="status-bar direction-title">
+      <h2>EASTBOUND</h2>
+    </div>
+    <div class="direction-heading-list">
+      <ul class="list direction-titles">
+        <li class="direction-heading line-title">Line</li>
+        <li class="direction-heading destination-title">Destination</li>
+      </ul>
+    </div>
+    <div class="route-detail-list">
+      <ul class="northbound-route-list list">
+        <li class="route-row one-after">
+          <h1 class="line">60</h1>
+          <div class="destination">
+            <h3>Randolf/Harbor Dr.</h3>
+            <p><span class="inline-heading">Frequency:</span> Every 20 minutes</p>
+          </div>
+        </li>
+        <li class="route-row">
+          <h1 class="line">124</h1>
+          <div class="destination">
+            <h3>Navy Pier</h3>
+            <p><span class="inline-heading">Frequency:</span> Every 10 minutes</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+  <!-- NORTHBOUND Section -->
+  <div class="status-bar direction-title">
+    <h2>NORTHBOUND</h2>
+  </div>
+  <div class="direction-heading-list">
+    <ul class="list direction-titles">
+      <li class="direction-heading line-title">Line</li>
+      <li class="direction-heading destination-title">Destination</li>
+    </ul>
+  </div>
+  <div class="route-detail-list">
+    <ul class="northbound-route-list list">
+      <li class="route-row">
+        <h1 class="line">151</h1>
+        <div class="destination">
+          <h3>Devon/Clark</h3>
+          <p><span class="inline-heading">Frequency:</span> Every 16 minutes</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- SOUTHBOUND Section -->
+  <div class="status-bar direction-title">
+    <h2>SOUTHBOUND</h2>
+  </div>
+  <div class="direction-heading-list">
+    <ul class="list direction-titles">
+      <li class="direction-heading line-title">Line</li>
+      <li class="direction-heading destination-title">Destination</li>
+    </ul>
+  </div>
+  <div class="route-detail-list">
+    <ul class="southbound-route-list list">
+      <li class="route-row one-after">
+        <h1 class="line">J14</h1>
+        <div class="destination">
+          <h3>103rd/Stony Island</h3>
+          <p><span class="inline-heading">Frequency:</span> Every 15 minutes</p>
+        </div>
+      </li>
+      <li class="route-row">
+        <h1 class="line">124</h1>
+        <div class="destination">
+          <h3>Navy Pier</h3>
+          <p><span class="inline-heading">Frequency:</span> Every 10 minutes</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Reroute Section -->
+  <div class="status-bar direction-title">
+    <h2>REROUTE</h2>
+  </div>
+  <div class="direction-heading-list">
+    <ul class="list direction-titles">
+      <li class="direction-heading line-title">Line</li>
+      <li class="direction-heading destination-title">Destination</li>
+    </ul>
+  </div>
+  <div class="route-detail-list">
+    <ul class="northbound-route-list list">
+      <li class="route-row">
+        <h1 class="line">6X</h1>
+        <div class="destination">
+          <h3>Jackson Park Express</h3>
+          <p><span class="inline-heading">Frequency:</span> N/A</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Out of Service Section -->
+  <div class="status-bar direction-title">
+    <h2>OUT OF SERVICE</h2>
+  </div>
+  <div class="direction-heading-list">
+    <ul class="list direction-titles">
+      <li class="direction-heading line-title">Line</li>
+      <li class="direction-heading destination-title">Destination</li>
+    </ul>
+  </div>
+  <div class="route-detail-list">
+    <ul class="oos-route-list list">
+      <li class="route-row one-after">
+        <h1 class="line">4</h1>
+        <div class="destination">
+          <h3>Cottage Grove</h3>
+          <p><span class="inline-heading">Resumes:</span> 12:10am</p>
+        </div>
+      </li>
+      <li class="route-row one-after">
+        <h1 class="line">20</h1>
+        <div class="destination">
+          <h3>Madison</h3>
+          <p><span class="inline-heading">Resumes:</span> 12:10am</p>
+        </div>
+      </li>
+      <li class="route-row">
+        <h1 class="line">157</h1>
+        <div class="destination">
+          <h3>Streeterville/Taylor</h3>
+          <p><span class="inline-heading">Resumes:</span> 6:00am</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+<!-- Footer Tab Navigation -->
+<div class="tabNav">
+  <ul class="tabIcons">
+    <li class="tabIcon">
+      <img src="images/homeIcon.png" alt="Home Icon" class="icon">
+    </li>
+    <li class="tabIcon">
+      <img src="images/favoriteIcon.png" alt="Favorite Icon" class="icon">
+    </li>
+    <li class="tabIcon">
+      <img src="images/searchIcon.png" alt="Search Icon" class="icon">
+    </li>
+    <li class="tabIcon tabActive">
+      <img src="images/locationIcon.png" alt="Location Icon" class="icon">
+    </li>
+    <li class="tabIcon">
+      <img src="images/settingsIcon.png" alt="Settings Icon" class="icon">
+    </li>
+  </ul>
+</div>
+</body>
+</html>
