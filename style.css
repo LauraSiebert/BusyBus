@@ -17,6 +17,10 @@ h2 {
   margin-top: 0;
 }
 
+h6 {
+  font-weight: normal;
+}
+
 p {
   font-size: 1em;
   color: #E00061;
@@ -131,7 +135,7 @@ p {
   position: fixed;
   bottom: 0;
   display: flex;
-  height: 60px;
+  height: 65px;
   width: 375px;
   background-color: #353A57;
 }
@@ -145,12 +149,20 @@ p {
 
 .tabIcon {
   display: block;
-  padding-top: 17px;
+  padding-top: 12px;
   width: 75px
 }
 
 .tabActive {
   background-color: #E8E8E8;
+}
+
+.iconLabel {
+  color: #E8E8E8;
+}
+
+.iconActive {
+  color: #353A57;
 }
 
 @media screen and (min-width: 500px) {
